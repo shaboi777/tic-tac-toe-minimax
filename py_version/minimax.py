@@ -46,9 +46,9 @@ def wins(state, player):
     """
     This function tests if a specific player wins. Possibilities:
     * Three rows    [X X X] or [O O O]
-    * Three cols    [X X X] or [O O O]
+    * Three coloumns[X X X] or [O O O]
     * Two diagonals [X X X] or [O O O]
-    :parameters state: the state of the current board
+    :parameters state: the state of the current tic tac toe board
     :parameters player: a human or a computer
     :return: True if the player wins
     """
