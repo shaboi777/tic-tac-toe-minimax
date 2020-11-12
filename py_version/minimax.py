@@ -13,7 +13,6 @@ Author: Clederson Cruz
 Year: 2017
 License: GNU GENERAL PUBLIC LICENSE (GPL)
 
-Example:
 Shammy Siddiq
 CCID: mhsiddiq
 """
@@ -49,8 +48,8 @@ def wins(state, player):
     * Three rows    [X X X] or [O O O]
     * Three cols    [X X X] or [O O O]
     * Two diagonals [X X X] or [O O O]
-    :param state: the state of the current board
-    :param player: a human or a computer
+    :parameters state: the state of the current board
+    :parameters player: a human or a computer
     :return: True if the player wins
     """
     win_state = [
