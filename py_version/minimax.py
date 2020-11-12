@@ -70,7 +70,7 @@ def wins(state, player):
 
 def game_over(state):
     """
-    This function test if the human or computer wins
+    This function test if the human or computer wins the game
     :param state: the state of the current board
     :return: True if the human or computer wins
     """
@@ -109,8 +109,8 @@ def valid_move(x, y):
 def set_move(x, y, player):
     """
     Set the move on board, if the coordinates are valid
-    :param x: X coordinate
-    :param y: Y coordinate
+    :parameter x: X coordinate
+    :parameter y: Y coordinate
     :param player: the current player
     """
     if valid_move(x, y):
