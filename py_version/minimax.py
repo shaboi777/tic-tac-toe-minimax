@@ -13,7 +13,7 @@ Author: Clederson Cruz
 Year: 2017
 License: GNU GENERAL PUBLIC LICENSE (GPL)
 
-Shammy Siddiq
+Shammy Siddiqi
 CCID: mhsiddiq
 """
 
